@@ -1,0 +1,25 @@
+#AULA 2 - Arrow Functions
+
+Expressão de função
+  - Função anônima ( Função sem nome )
+  - A única diferença é o fato de não precisar atribuir um nome para a função
+
+  const minhaF = function(){
+    console.log(true)
+  }
+
+Declaração de função
+
+  function minhaF(){
+    console.log(true)
+  }
+
+Arrow function
+  - É uma expressão de função com escrita resumida
+  - Criada para não ter o seu próprio this
+  
+  constGlobal = () => {
+    console.log(this)
+  }
+  
+  O this pega o escopo global ( Window no navegador )
