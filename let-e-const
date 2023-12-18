@@ -1,0 +1,7 @@
+#AULA 1 - LET E CONST
+
+VAR é "exposta", pode ser acessada em todo o escopo
+LET é "não exposta", ou seja, só pode ser acessada dentro do seu escopo é mutável
+CONST é "não exposta" e não mutável
+
+OBS: É possível manipular valores de uma const caso receba um objeto ou array
