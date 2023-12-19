@@ -1,0 +1,8 @@
+#AULA 4 - For/Of Loop
+  É uma "Sintax Sugar" de um for loop padrão, ou seja, uma forma reduzida porem com a mesma funcionalidade
+
+  const str = "Thiago"
+
+  for(let s of str){
+    console.log(s)
+  }
