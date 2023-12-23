@@ -1,0 +1,11 @@
+#AULA 6 - Callbacks
+
+É uma função passada como paremetro e que pode ser chamada posteriormente
+
+const somar = ( x,y ) => x + y
+
+const calcular = ( x,y, callback ) => {
+  callback(x,y)
+}
+
+calcular(5 ,10 ,somar)
